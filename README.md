@@ -33,13 +33,14 @@ main.py            # tiny CRR smoke demo
 
 ```bash
 pip install -r requirements.txt
-pip install -e .
 ```
+
+Run code with `PYTHONPATH=src` (or from notebooks after they add `src` to `sys.path`).
 
 ## Tests
 
 ```bash
-python -m pytest tests/ -v
+PYTHONPATH=src python -m pytest tests/ -v
 ```
 
 ## Notebooks
