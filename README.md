@@ -3,8 +3,8 @@
 Disclaimer: 
 -> Simpliest methods implemented in the project, the main goal is to have any positive grade that pass the course :)
 -> AI usage and impact clarification: 
-  >> src/ was written by me and modified by AI to the convinient format 
-  >> AI used for generating code that is making plots code and doing tests + inspiring examples, ReadMe summary
+  *>> src/ was written by me and modified by AI to the convinient format 
+  *>> AI used for generating code that is making plots code and doing tests + inspiring examples, ReadMe summary
 -> Data for Calibration has been taken from Bbg terminal, attached screenshot
 
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 
 Run code with `PYTHONPATH=src` (or from notebooks after they add `src` to `sys.path`).
-
+  
 ## Tests
 
 ```bash
