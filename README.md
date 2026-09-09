@@ -1,17 +1,16 @@
-# PFFP 2026 —  Project
+# PFFP 2026 — Project
 
-Disclaimer: 
--> Simpliest methods implemented in the project, the main goal is to have any positive grade that pass the course :)
--> AI usage and impact clarification: 
-  *>> src/ was written by me and modified by AI to the convinient format 
-  *>> AI used for generating code that is making plots code and doing tests + inspiring examples, ReadMe summary
--> Data for Calibration has been taken from Bbg terminal, attached screenshot
+## Disclaimer
 
+- Simplest methods are used on purpose — the goal is a passing grade for the course.
+- **AI usage:**
+  - `src/` was written by me and cleaned up with AI
+  - AI helped with generating plot code, `tests/`, and this README summary
+- Calibration data comes from a Bloomberg terminal (screenshot in data folder)
 
+## What is in the project
 
-Project contain:
-
-- CRR binomial 
+- CRR binomial trees
 - Vasicek & CIR short-rate models (bond prices + simulation)
 - Yield-curve calibration (Bloomberg EUR OIS or sample CSV)
 
@@ -36,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 Run code with `PYTHONPATH=src` (or from notebooks after they add `src` to `sys.path`).
-  
+
 ## Tests
 
 ```bash
@@ -61,5 +60,3 @@ price = price_option(100, 100, 0.05, 0.2, 1.0, N=50, kind="call", style="europea
 curve = YieldCurve.from_csv("data/bloomberg_eur_ois_curve.csv")
 fit = calibrate_vasicek(curve)
 ```
-
-
