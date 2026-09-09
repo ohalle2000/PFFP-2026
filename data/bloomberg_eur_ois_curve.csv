@@ -1,0 +1,12 @@
+# as_of_date: 2026-09-09
+# curve: EUR OIS ESTR (Bloomberg screenshot)
+# zero_rate = continuous zero from Zero Rate column / 100
+maturity,zero_rate
+0.254795,0.02484450
+0.501370,0.02606260
+1.010959,0.02807800
+2.008219,0.02951360
+3.008219,0.02994180
+5.008219,0.03044770
+7.013699,0.03101800
+10.013699,0.03210350
